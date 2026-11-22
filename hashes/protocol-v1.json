@@ -1,0 +1,35 @@
+{
+  "code_commit": "f7adf5133733807bd7ae794a64e86cfde951565a",
+  "data_manifest_hash": "547f4ae0c994460f0138dd4b1d8ebe47c89af397ee2264ecbb4775af7b35ccb4",
+  "files": {
+    "DEVIATIONS.md": "75d9a55d1b0da2acba59b07461ae8b8e99f57e4ee437543ff13be1ee62d6d845",
+    "PROTOCOL.md": "e675e2875469e8b346a4d6eed2f464c72f9792daa5c766857d4626546368438a",
+    "PROVENANCE.md": "33f5a3610106a9590282772befcf4171082a84bd9e4b58270bd0b923157c54dc",
+    "splits/manifest.json": "10f53296610469956f731494d101fa80760e3c50e137e5b3e1506706e773f38a"
+  },
+  "protocol_files": {
+    "protocol/DEVIATIONS.md": "75d9a55d1b0da2acba59b07461ae8b8e99f57e4ee437543ff13be1ee62d6d845",
+    "protocol/PROTOCOL.md": "e675e2875469e8b346a4d6eed2f464c72f9792daa5c766857d4626546368438a",
+    "protocol/PROVENANCE.md": "33f5a3610106a9590282772befcf4171082a84bd9e4b58270bd0b923157c54dc",
+    "protocol/protocol.yaml": "2d8c43fb22a8534afe3b3b8f2b518d1c55beb6a6c049884740d2d03c5ae5544e"
+  },
+  "redacted_fields": {
+    "splits/manifest.json": [
+      "counts_sha256"
+    ]
+  },
+  "salted_commitments": {
+    "splits/counts.json": {
+      "algorithm": "sha256(salt || file bytes)",
+      "commitment": "f702407810a57db693bf31f25dce261d89bab1c2fb7c9cb09487336e1f709d84",
+      "salt_bytes": 32
+    },
+    "splits/manifest.json": {
+      "algorithm": "sha256(salt || file bytes)",
+      "commitment": "5b9113af3c62b14861ea099199b3206e61b44eb378415776b2fe8e2738b23cb1",
+      "salt_bytes": 32
+    }
+  },
+  "split_hash": "d02ec1fa5270aaf9b2b49646d0f77d816804fd53fbd4449f30b2b19f70363f9c",
+  "tag": "protocol-v1"
+}

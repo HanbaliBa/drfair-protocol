@@ -1,0 +1,94 @@
+{
+  "code_version": "0.1.0",
+  "config": {
+    "b_dev_fraction": 0.75,
+    "fewshot": {
+      "draws": 20,
+      "k": [
+        10,
+        25,
+        50,
+        100,
+        200
+      ],
+      "max_attempts": 1000,
+      "validation_fraction": 0.25,
+      "validation_min": 5
+    },
+    "m_dev_fraction": 0.75,
+    "m_dev_half": {
+      "fraction_q": 0.5,
+      "min_cell_groups": 4
+    },
+    "min_groups_per_stratum": 25,
+    "min_test_cell_groups": 10,
+    "n_outer_folds": 5,
+    "n_teacher_inner_folds": 5,
+    "seed": 42,
+    "seed_search_max": 1000,
+    "strata": {
+      "ICDR0": {
+        "dme": [
+          0,
+          1
+        ],
+        "icdr": [
+          0
+        ]
+      },
+      "ICDR1": {
+        "dme": [
+          0,
+          1
+        ],
+        "icdr": [
+          1
+        ]
+      },
+      "ICDR2_DME0": {
+        "dme": [
+          0
+        ],
+        "icdr": [
+          2
+        ]
+      },
+      "ICDR2_DME1": {
+        "dme": [
+          1
+        ],
+        "icdr": [
+          2
+        ]
+      },
+      "ICDR34_DME0": {
+        "dme": [
+          0
+        ],
+        "icdr": [
+          3,
+          4
+        ]
+      },
+      "ICDR34_DME1": {
+        "dme": [
+          1
+        ],
+        "icdr": [
+          3,
+          4
+        ]
+      }
+    }
+  },
+  "files": {
+    "assignments.csv": "e18baf9c9c86b6a7426f733a5091b7c31224142542de88db2ce1800755047b49",
+    "exclusions.csv": "ff5222d4047c7400c76490e646d808717789489fbc8450036a1144ed3fc2d6c1",
+    "fewshot_draws.csv": "3230a3fb8b716c61b66bd33e3980074a6b9c9bfd9c62fe09f05a644ed971ad34",
+    "group_flags.csv": "8795104543cf1bd4b3d1ace7f6fd862d9b0ff9c63f4eb0f722171522ac492f02"
+  },
+  "git_commit": "bd2506199d68c0d733618dcbe36be2d461f7039e",
+  "seed_attempts": 1,
+  "selected_seed": 42,
+  "split_hash": "d02ec1fa5270aaf9b2b49646d0f77d816804fd53fbd4449f30b2b19f70363f9c"
+}
